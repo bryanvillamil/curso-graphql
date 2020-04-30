@@ -13,6 +13,7 @@ const {
 } = process.env
 
 const mongoUrl = `mongodb+srv://${DB_USER}:${DB_PASSWD}@${DB_HOST}:${DB_PORT}/${DB_NAME}`
+
 let connection
 
 console.log('mongoUrl', mongoUrl)
